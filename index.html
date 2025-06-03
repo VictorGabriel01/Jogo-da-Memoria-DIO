@@ -1,0 +1,58 @@
+<!-- 
+  Documento HTML que define a estrutura básica do jogo da memória.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- 
+    A seção head contém metadados sobre o documento.
+  -->
+  <head>
+    <meta charset="UTF-8">
+    <!-- 
+      Define o conjunto de caracteres utilizado no documento.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+      Define a configuração de visualização para dispositivos móveis.
+    -->
+    <title>Jogo da Memória</title>
+    <!-- 
+      Define o título da página.
+    -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <!-- 
+      Importa o arquivo de estilo reset.css para definir estilos padrão.
+    -->
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <!-- 
+      Importa o arquivo de estilo main.css para definir estilos personalizados.
+    -->
+  </head>
+  <!-- 
+    A seção body contém o conteúdo da página.
+  -->
+  <body>
+    <!-- 
+      Div container que envolve todo o conteúdo da página.
+    -->
+    <div class="container">
+      <!-- 
+        Título do jogo.
+      -->
+      <h2>JOGO DA MEMÓRIA</h2>
+      <!-- 
+        Div que representa o jogo em si.
+      -->
+      <div class="game"></div>
+      <!-- 
+        Botão para reiniciar o jogo.
+      -->
+      <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+    </div>
+    <!-- 
+      Importa o arquivo de script engine.js que contém a lógica do jogo.
+    -->
+    <script src="./src/scripts/engine.js" defer></script>
+  </body>
+</html>

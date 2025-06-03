@@ -1,0 +1,32 @@
+/* 
+  Seletor universal (*) que aplica estilos a todos os elementos da página.
+*/
+
+* {
+    /* 
+      Remove a margem de todos os elementos.
+    */
+    margin: 0;
+    
+    /* 
+      Remove o preenchimento de todos os elementos.
+    */
+    padding: 0;
+    
+    /* 
+      Remove a borda de contorno de todos os elementos.
+    */
+    outline: none;
+    
+    /* 
+      Define o modelo de caixa como border-box, 
+      para que a largura e altura sejam calculadas incluindo a borda e o preenchimento.
+    */
+    box-sizing: border-box;
+    
+    /* 
+      Define a família de fontes como monospace, 
+      para que todos os textos sejam exibidos com uma fonte de largura fixa.
+    */
+    font-family: monospace;
+  }
